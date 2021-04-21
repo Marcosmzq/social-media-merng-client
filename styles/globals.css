@@ -1,0 +1,22 @@
+/*GOOGLE FONTS*/
+
+/*Poppins*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+/*Nunito*/
+@import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.nav-ul {
+  @apply w-full flex flex-col flex-wrap justify-center items-center sm:w-auto  sm:flex-row sm:justify-around;
+}
+.nav-li {
+  @apply mx-2 p-2 font-title cursor-pointer text-rose hover:bg-rose rounded hover:text-white;
+}
+
+.btn {
+  @apply w-full p-2 border border-rose bg-white text-rose hover:text-white hover:bg-rose  rounded-lg text-lg text-center font-bold focus:outline-none font-title;
+}
